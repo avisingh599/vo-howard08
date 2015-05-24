@@ -10,25 +10,24 @@ However, the core algorithm is the same.
 
 Requirements: 
 
-MATLAB2014a or newer, with the following toolbooxes:
+MATLAB R2014a or newer, with the following toolbooxes:
 
 1.  Computer Vision
 2.  Optmization
 
 How to run?
-A file demo.m is provided which takes in the input images provided int he sample_data folder,
+A file demo.m is provided which takes in the input images provided in the sample_data folder,
 and runs the algorithm on it. 
 For a better test of the algorithm, it is suggested that you download KITTI's Visual Odometry
-dataset, and test the algorithm on them.
+dataset, and test the algorithm on their sequences. 
 
-In order to run thig algorithm on your own data, you must modify the intrinsic and extrinsic
-calibration parameter in the code. 
+In order to run this algorithm on your own data, you must modify the intrinsic and extrinsic
+calibration parameter in the code.
 
 The results folder of this repo provides an images that visualises the performance of the
 implementation on the first sequence of the KITTI VO dataset, with blue dots denoting the
 ground truth information.
 
 For any queries, contact: avisingh599@gmail.com
-
 
 License: MIT
