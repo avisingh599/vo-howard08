@@ -3,6 +3,8 @@ Real-Time Stereo Visual Odometry for Autonomous Ground Vehicles
 
 A copy of the publication is freely available [here](https://www-robotics.jpl.nasa.gov/publications/Andrew_Howard/howard_iros08_visodom.pdf).
 
+I also have a [blog post](http://avisingh599.github.io/vision/visual-odometry-full/) describing the implementation, which is especialy recommended for beginners. 
+
 Note that this is not an exact implementation. A few things, such as the feature detector,
 are different. Also, since it is based on MATLAB, and not C/C++ like the original author,
 it is not really "real time". In fact, each VO computation takes around 10-15 seconds.
