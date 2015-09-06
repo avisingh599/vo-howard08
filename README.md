@@ -4,7 +4,7 @@ This is a MATLAB-based implementation of Andrew Howard's 2008 paper:
 Real-Time Stereo Visual Odometry for Autonomous Ground Vehicles
 [Link to the paper](https://www-robotics.jpl.nasa.gov/publications/Andrew_Howard/howard_iros08_visodom.pdf).
 
-##[blog post](http://avisingh599.github.io/vision/visual-odometry-full/)
+##[Blog Post](http://avisingh599.github.io/vision/visual-odometry-full/)
 
 Note that this is not an exact implementation. A few things, such as the feature detector,
 are different. Also, since it is based on MATLAB, and not C/C++ like the original author,
@@ -14,6 +14,7 @@ However, the core algorithm is the same.
 ###Requirements: 
 
 MATLAB R2014a or newer, with the following toolbooxes:
+
 1.  Computer Vision
 2.  Optmization
 
@@ -29,10 +30,10 @@ calibration parameter in the code.
 ###Results
 ![Results on the KITTI VO Benchmark Sequence 0 (2000 frames)](https://github.com/avisingh599/vo-howard08/blob/master/results/2000_frames.bmp)
 
-Blue is the ground truth. Green is the VO estimation.
+Results on the KITTI VO Benchmark Sequence 0 (2000 frames). Blue is the ground truth, green is the VO estimation.
 
+###Contact
 For any queries, contact: avisingh599@gmail.com
 
 ###License
-
 MIT
