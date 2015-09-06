@@ -2,6 +2,7 @@
 
 This is a MATLAB-based implementation of Andrew Howard's 2008 paper:
 Real-Time Stereo Visual Odometry for Autonomous Ground Vehicles
+
 [Link to the paper](https://www-robotics.jpl.nasa.gov/publications/Andrew_Howard/howard_iros08_visodom.pdf).
 
 ##[Blog Post](http://avisingh599.github.io/vision/visual-odometry-full/)
